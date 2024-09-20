@@ -4,7 +4,7 @@ import ChatItem from "../shared/ChatItem";
 
 const ChatList = ({
   w = "100%",
-  chats = [],
+  chats=[],
   chatId,
   onlineUsers = [],
   newMessagesAlert = [
